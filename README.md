@@ -86,7 +86,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main_hh_grad.py --save checkpoint_name --tem
 
 This repository is built on [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch). We thank the authors for making their EDSR codes public.
 
-This repository is also based on the [implementation](https://github.com/ofsoundof/learning_filter_basis) of my former paper [Learning Filter Basis](https://arxiv.org/abs/1908.08932) and [Group Sparsity](https://arxiv.org/abs/2003.08935). If you are interested, please refer to:
+This repository is also based on the [implementation](https://github.com/ofsoundof/learning_filter_basis) of my former paper [Learning Filter Basis](https://arxiv.org/abs/1908.08932), [Group Sparsity](https://arxiv.org/abs/2003.08935), and [DHP](https://arxiv.org/abs/2003.13683). If you are interested, please refer to:
 
 ```
 @inproceedings{li2019learning,
@@ -100,6 +100,13 @@ This repository is also based on the [implementation](https://github.com/ofsound
   title={Group Sparsity: The Hinge Between Filter Pruning and Decomposition for Network Compression},
   author={Li, Yawei and Gu, Shuhang and Mayer, Christoph and Van Gool, Luc and Timofte, Radu},
   booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  year={2020}
+}
+
+@inproceedings{li2020dhp,
+  title={DHP: Differentiable Meta Pruning via HyperNetworks},
+  author={Li, Yawei and Gu, Shuhang and Zhang, Kai and Van Gool, Luc and Timofte, Radu},
+  booktitle={Proceedings of the European Conference on Computer Vision},
   year={2020}
 }
 ```
