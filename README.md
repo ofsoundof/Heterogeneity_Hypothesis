@@ -26,12 +26,6 @@ If you use this code for a paper please cite:
 }
 ```
 
-## Contents
-1. [Usage](#usage)
-2. [Evaluation](#evaluation)
-3. [Network Shrinkage and Training](#Network Shrinkage and Training)
-4. [Acknowledgements](#acknowledgements)
-
 
 # 1. Usage
 
